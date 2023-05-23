@@ -1,0 +1,51 @@
+body {
+    background-color: azure;
+}
+.grid-container1{
+    display:grid;
+    grid-template-rows: 60px 40px;
+    justify-content: right;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.gc2item2{
+    padding: 10px;
+    margin-top:40px;
+}
+.grid-container3{
+display: grid;
+grid-template-rows: auto auto auto;
+}
+a {
+align-self: center;
+}
+td{
+padding: 15px;
+}
+h2{
+background-color: rgb(123, 183, 185);
+}
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    border: 2px;
+}
+page[size="A4"] {  
+width: 25cm;
+height: 120cm;
+border: 2px solid black; 
+}
+.table1{
+    width: 100%;
+    border-spacing: 0px;
+}
+#btn{
+  background-color: rgb(146, 241, 146);
+  font-size: larger;
+  size: 50px;
+}
